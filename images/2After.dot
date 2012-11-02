@@ -1,0 +1,23 @@
+graph {
+	node [ shape = "plaintext", fontname = "Standard Symbols L", fontsize = 12 ];
+	label = "(((&#963;&#8594;&#964;)&#8743;(&#963;&#8594;&#961;))&#8594;&#981;)";
+	fontname = "Standard Symbols L";
+	fontsize = 20;
+	0 [ label = "&#8594;" ];
+	1 [ label = "&#8743;", labelfontsize = 10 ];
+	0 -- 1 [ style = "setlinewidth(0.5)" ];
+	2 [ label = "&#8594;", labelfontsize = 10 ];
+	1 -- 2 [ style = "setlinewidth(0.5)" ];
+	3 [ label = "&#963;", labelfontsize = 10 ];
+	2 -- 3 [ style = "setlinewidth(0.5)" ];
+	4 [ label = "&#964;", labelfontsize = 10 ];
+	2 -- 4 [ style = "setlinewidth(0.5)" ];
+	5 [ label = "&#8594;", labelfontsize = 10 ];
+	1 -- 5 [ style = "setlinewidth(0.5)" ];
+	6 [ label = "&#963;", labelfontsize = 10 ];
+	5 -- 6 [ style = "setlinewidth(0.5)" ];
+	7 [ label = "&#961;", labelfontsize = 10 ];
+	5 -- 7 [ style = "setlinewidth(0.5)" ];
+	8 [ label = "&#981;", labelfontsize = 10 ];
+	0 -- 8 [ style = "setlinewidth(0.5)" ];
+}

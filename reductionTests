@@ -1,0 +1,4 @@
+simplify((v->v)&(t->(q->h)&(f->n&w)),'1').
+simplify((v&(s->t&q)->v)&((s->t&q)->v),'2').
+simplify((a->b)&(a->c&b),'3').
+simplify((s->t&q)&(s&t->q),'4').

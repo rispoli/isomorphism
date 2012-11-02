@@ -1,0 +1,35 @@
+graph {
+	node [ shape = "plaintext", fontname = "Standard Symbols L", fontsize = 12 ];
+	label = "((&#981;&#8594;&#981;)&#8743;(&#964;&#8594;((&#961;&#8594;&#952;)&#8743;(&#950;&#8594;(&#958;&#8743;&#967;)))))";
+	fontname = "Standard Symbols L";
+	fontsize = 20;
+	0 [ label = "&#8743;" ];
+	1 [ label = "&#8594;", labelfontsize = 10 ];
+	0 -- 1 [ style = "setlinewidth(0.5)" ];
+	2 [ label = "&#981;", labelfontsize = 10 ];
+	1 -- 2 [ style = "setlinewidth(0.5)" ];
+	3 [ label = "&#981;", labelfontsize = 10 ];
+	1 -- 3 [ style = "setlinewidth(0.5)" ];
+	4 [ label = "&#8594;", labelfontsize = 10 ];
+	0 -- 4 [ style = "setlinewidth(0.5)" ];
+	5 [ label = "&#964;", labelfontsize = 10 ];
+	4 -- 5 [ style = "setlinewidth(0.5)" ];
+	6 [ label = "&#8743;", labelfontsize = 10 ];
+	4 -- 6 [ style = "setlinewidth(0.5)" ];
+	7 [ label = "&#8594;", labelfontsize = 10 ];
+	6 -- 7 [ style = "setlinewidth(0.5)" ];
+	8 [ label = "&#961;", labelfontsize = 10 ];
+	7 -- 8 [ style = "setlinewidth(0.5)" ];
+	9 [ label = "&#952;", labelfontsize = 10 ];
+	7 -- 9 [ style = "setlinewidth(0.5)" ];
+	10 [ label = "&#8594;", labelfontsize = 10 ];
+	6 -- 10 [ style = "setlinewidth(0.5)" ];
+	11 [ label = "&#950;", labelfontsize = 10 ];
+	10 -- 11 [ style = "setlinewidth(0.5)" ];
+	12 [ label = "&#8743;", labelfontsize = 10 ];
+	10 -- 12 [ style = "setlinewidth(0.5)" ];
+	13 [ label = "&#958;", labelfontsize = 10 ];
+	12 -- 13 [ style = "setlinewidth(0.5)" ];
+	14 [ label = "&#967;", labelfontsize = 10 ];
+	12 -- 14 [ style = "setlinewidth(0.5)" ];
+}
